@@ -4,7 +4,7 @@ int count=0,i,j=0;
     int removeElement(vector<int>& nums, int val) {
          for(i=0;i<nums.size();i++)
         {
-                if(nums[i]!=val) 
+                if(nums[i]!=val)
                 {
                     nums[j]=nums[i];
                     j++;
