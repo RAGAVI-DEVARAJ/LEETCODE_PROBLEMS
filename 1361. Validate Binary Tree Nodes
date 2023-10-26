@@ -5,7 +5,7 @@ class Solution:
 
         for node in range(n):
             left, right = leftChild[node], rightChild[node]
-            if left != -1:
+            if left != -1: 
                 graph[node].append(left)
                 in_degree[left] += 1
             if right != -1:
