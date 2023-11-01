@@ -5,7 +5,7 @@ public:
             long long answer=1;
             temp.push_back((int)answer);
             for(int j=0;j<rowIndex;j++){
-                answer=answer*(rowIndex-j);
+                answer=answer*(rowIndex-j); 
                 answer=answer/(j+1);
                 temp.push_back((int)answer);
             }
