@@ -4,7 +4,7 @@ public:
         int i = 0, n = s.size();
    while(s[i] == ' '){ 
             i++;
-        }
+        } 
 
         int positive = 0, negative = 0; 
 
