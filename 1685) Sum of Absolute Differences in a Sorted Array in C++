@@ -14,3 +14,5 @@ public:
         return ans;
     }
 };
+TC: O(n)
+SC: O(n) used to return the answer otherwise it is O(1)
