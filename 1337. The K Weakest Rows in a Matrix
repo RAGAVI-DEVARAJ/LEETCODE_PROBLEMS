@@ -6,7 +6,7 @@ public:
             int strength = accumulate(mat[i].begin(), mat[i].end(), 0);
             rowStrengths.push_back({strength, i});
         }
-        
+         
         sort(rowStrengths.begin(), rowStrengths.end());
         
         vector<int> result;
