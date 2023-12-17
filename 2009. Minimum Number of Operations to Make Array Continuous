@@ -1,7 +1,7 @@
 class Solution {
 public:
     int minOperations(vector<int>& nums) {
-        // Sort the vector in ascending order
+        // Sort the vector in ascending order 
         sort(nums.begin(), nums.end());
 
         // Initialize variables
