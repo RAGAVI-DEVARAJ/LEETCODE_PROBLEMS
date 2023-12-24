@@ -8,7 +8,7 @@ public:
             temp=temp->next;
         } 
         sort(nums.begin(),nums.end());
-        temp=head;
+        temp=head; 
         int i=0;
         while(temp!=NULL){
             temp->val=nums[i];
