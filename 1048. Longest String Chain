@@ -30,7 +30,6 @@ public:
         return false;
 
     } 
-
     int longestStrChain(vector<string>& words) {
      
         sort(words.begin(), words.end(), compare);
