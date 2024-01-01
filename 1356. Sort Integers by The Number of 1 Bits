@@ -3,7 +3,7 @@ public:
     static bool compare(int a, int b) {
         // Calculate the number of set bits (1s) in the binary representation of a and b
         int bitCountA = __builtin_popcount(a);
-        int bitCountB = __builtin_popcount(b);
+        int bitCountB = __builtin_popcount(b); 
 
         // If the number of set bits is the same for a and b, compare them numerically
         if (bitCountA == bitCountB) {
