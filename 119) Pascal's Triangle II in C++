@@ -1,6 +1,6 @@
 class Solution {
 public:
-    vector<int> getRow(int rowIndex) {
+     vector<int> getRow(int rowIndex) {
             vector<int>temp;
             long long answer=1;
             temp.push_back((int)answer);
