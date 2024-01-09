@@ -7,3 +7,4 @@ public:
      return max(xdiff,ydiff)<=t;
     }
 };
+ 
