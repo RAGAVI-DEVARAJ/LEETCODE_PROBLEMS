@@ -7,7 +7,7 @@ public:
 
         // If the number of set bits is the same for a and b, compare them numerically
         if (bitCountA == bitCountB) {
-            return a < b;
+            return a < b; 
         }
         
         // Sort by the number of set bits in ascending order
