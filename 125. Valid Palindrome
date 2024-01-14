@@ -9,7 +9,7 @@ public:
     for(int i=0;i<n;i++)
     {
     if((str[i]>=97 && str[i]<=122)|| (str[i]>=48 && str[i]<=57))
-     chk+=str[i];
+     chk+=str[i]; 
     }   
 tmp=chk;
 reverse(chk.begin(),chk.end());
