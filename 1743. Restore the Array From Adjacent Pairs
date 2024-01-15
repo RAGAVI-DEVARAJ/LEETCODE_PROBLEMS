@@ -3,7 +3,7 @@ public:
     vector<int> restoreArray(vector<vector<int>>& adjacentPairs) {
         vector<int> ans;
         unordered_map<int,vector<int>> mp;
-        for(auto it: adjacentPairs){
+        for(auto it: adjacentPairs){ 
             mp[it[0]].push_back(it[1]);
             mp[it[1]].push_back(it[0]);
         }
