@@ -20,7 +20,7 @@ int temp=0;
                 temp=matrix[i][n-j-1];
                 matrix[i][n-j-1]=matrix[i][j];
                 matrix[i][j]=temp;
-            }
+            } 
         }
     }
 };
