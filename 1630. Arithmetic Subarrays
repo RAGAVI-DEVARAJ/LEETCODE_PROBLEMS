@@ -7,7 +7,7 @@ public:
             sort(subarray.begin(), subarray.end());
             int diff = abs(subarray[1] - subarray[0]);
             bool isArithmetic = true;
-            for(int j = 2; j < subarray.size(); j++) {
+            for(int j = 2; j < subarray.size(); j++) { 
                 if(abs(subarray[j] - subarray[j - 1]) != diff) {
                     isArithmetic = false;
                     break;
