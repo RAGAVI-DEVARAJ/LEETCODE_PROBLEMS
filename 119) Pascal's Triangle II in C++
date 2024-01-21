@@ -8,7 +8,7 @@ public:
                 answer=answer*(rowIndex-j);
                 answer=answer/(j+1);
                 temp.push_back((int)answer);
-            }
+            } 
         return temp;
     }
 };
