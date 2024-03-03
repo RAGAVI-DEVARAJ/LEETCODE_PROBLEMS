@@ -5,7 +5,6 @@ public:
 
         // To Find the index of the peak element in the mountain array.
         int peakIndex = findPeakIndex(1, length - 2, mountainArr);
-
         // Binary search for the target in the increasing part of the mountain array.
         int increasingIndex = binarySearch(0, peakIndex, target, mountainArr, false);
         if (mountainArr.get(increasingIndex) == target) 
