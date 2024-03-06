@@ -1,3 +1,4 @@
+//we are sorting an array after that we multiply the first two index value and then subract the answer with last two index value
 class Solution {
 public:
     int maxProductDifference(vector<int>& nums) {
