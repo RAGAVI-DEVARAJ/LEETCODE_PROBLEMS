@@ -1,3 +1,6 @@
+//The brute force will be using 3 for loop which will take n cube complexity
+//The better would be using map which will reduce to n sqaure complexity
+
 class Solution {
 public:
     vector<vector<int>> threeSum(vector<int>& nums) {
