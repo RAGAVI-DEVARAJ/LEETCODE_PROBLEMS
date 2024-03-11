@@ -1,0 +1,33 @@
+class Solution {
+public:
+    string customSortString(string order, string s) {
+        string ans="";
+        map<char,int> mpp;
+      for(int i=0;i<s.size();i++)
+      {
+           mpp[s[i]]++;
+      }  
+
+      for(int  i=0;i<order.size();i++)
+      {
+          char temp;
+          temp=order[i];
+          if(mpp.find(temp)!=mpp.end())
+          {
+              int store=mpp[temp];
+              while(store>0)
+              {
+                ans+=temp;
+                store--;
+              }
+               mpp[temp] = 0; 
+          }
+      }
+      for(auto it:mpp)
+        {
+            if(it.second != 0)
+                ans += string(it.second, it.first);
+        }
+      return ans;
+    }
+}; 
