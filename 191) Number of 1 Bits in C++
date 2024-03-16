@@ -10,3 +10,4 @@ public:
         return cnt;
     }
 };
+//separating the last bit from the given number and make it right shift by 1
