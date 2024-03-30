@@ -11,3 +11,7 @@ double power4;
       return false;
     } 
 };
+
+/*
+we can use a for loop to calculate the power
+*/
