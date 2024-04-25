@@ -12,7 +12,9 @@ public:
             sum+=j;
             suffix.push_back(sum);
         }
+
         reverse(suffix.begin(),suffix.end());
+
         for(int i=0;i<prefix.size();i++){
             if(prefix[i]==suffix[i]){
                 return i+1;
