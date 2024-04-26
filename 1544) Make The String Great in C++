@@ -10,7 +10,6 @@ public:
                 stack.push(c);
             }
         }
-        
         string result;
         while (!stack.empty()) {
             result = stack.top() + result;
